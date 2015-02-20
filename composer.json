@@ -1,0 +1,12 @@
+{
+    "name": "inscure/front-controller",
+    "require": {
+        "inscure/router": "dev-master",
+        "inscure/collection": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "FrontController\\": "src"
+        }
+    }
+}
